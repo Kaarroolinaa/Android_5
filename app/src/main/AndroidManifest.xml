@@ -30,6 +30,7 @@
         </activity>
         <activity android:name=".levelView.LevelActivity"/>
         <activity android:name=".Compass.CompassActivity"/>
+        <activity android:name=".Pedometer.PedometerActivity"/>
     </application>
 
 </manifest>
