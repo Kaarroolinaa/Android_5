@@ -2,4 +2,7 @@
     <item
         android:id="@+id/nav_level"
         android:title="Будівельний рівень"/>
+    <item
+        android:id="@+id/nav_compass"
+        android:title="Компас"/>
 </menu>
