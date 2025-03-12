@@ -12,6 +12,7 @@ import com.example.android_5.Brightness.BrightnessActivity
 import com.example.android_5.Compass.CompassActivity
 import com.example.android_5.GforceMeter.GForceMeterActivity
 import com.example.android_5.Pedometer.PedometerActivity
+import com.example.android_5.Weather.WeatherActivity
 import com.example.android_5.levelView.LevelActivity
 
 class MainActivity : AppCompatActivity() {
@@ -49,6 +50,9 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.nav_brightness -> {
                     startActivity(Intent(this, BrightnessActivity::class.java))
+                }
+                R.id.nav_weather -> {
+                    startActivity(Intent(this, WeatherActivity::class.java))
                 }
             }
             drawerLayout.closeDrawers()

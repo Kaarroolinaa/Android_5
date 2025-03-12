@@ -33,6 +33,8 @@
         <activity android:name=".Pedometer.PedometerActivity"/>
         <activity android:name=".GforceMeter.GForceMeterActivity" />
         <activity android:name=".Brightness.BrightnessActivity"/>
+        <activity android:name=".Weather.WeatherActivity"/>
+        <activity android:name=".Weather.WeatherForecastActivity" />
     </application>
 
 </manifest>
