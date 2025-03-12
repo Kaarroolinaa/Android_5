@@ -8,6 +8,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
+import com.example.android_5.Brightness.BrightnessActivity
 import com.example.android_5.Compass.CompassActivity
 import com.example.android_5.GforceMeter.GForceMeterActivity
 import com.example.android_5.Pedometer.PedometerActivity
@@ -45,6 +46,9 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.nav_gforce_meter -> {
                     startActivity(Intent(this, GForceMeterActivity::class.java))
+                }
+                R.id.nav_brightness -> {
+                    startActivity(Intent(this, BrightnessActivity::class.java))
                 }
             }
             drawerLayout.closeDrawers()
