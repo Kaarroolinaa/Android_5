@@ -8,6 +8,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
+import com.example.android_5.levelView.LevelActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,7 +31,9 @@ class MainActivity : AppCompatActivity() {
 
         navigationView.setNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
-
+                R.id.nav_level -> {
+                    startActivity(Intent(this, LevelActivity::class.java))
+                }
             }
             drawerLayout.closeDrawers()
             true
