@@ -8,4 +8,8 @@
     <item
         android:id="@+id/nav_pedometer"
         android:title="Крокомір"/>
+    <item
+        android:id="@+id/nav_gforce_meter"
+        android:title="G-force Meter"/>
+
 </menu>
